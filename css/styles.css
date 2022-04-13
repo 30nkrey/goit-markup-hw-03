@@ -25,11 +25,25 @@
   --color-shadow-one: rgba(0, 0, 0, 0.1);
   --color-shadow-two: rgba(0, 0, 0, 0.08);
   --color-shadow-three: rgba(0, 0, 0, 0.12);
- 
   
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+h1,h2,h3,p,ul {
+  padding: 0px;
+  margin: 0px;
 }
 header {
   position: absolute;
+}
+.links {
+  display: inline-block;
 }
 body {
   
@@ -45,6 +59,8 @@ body {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
+  outline: 2px solid tomato;
+  
 }
 /* Заголовки*/
 
