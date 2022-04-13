@@ -28,7 +28,9 @@
  
   
 }
-
+header {
+  position: absolute;
+}
 body {
   
   font-size: 14px;
