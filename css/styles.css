@@ -280,12 +280,57 @@ color: var(--primary-text-color);
  
 
 .button-all {
+display: inline-block;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.63;
 letter-spacing: 0.03em;
 text-align: center;
 
+}
+.vse {
+margin-right: 8px;
+height: 38px;
+width: 73px;
+left: 495px;
+top: 174px;
+border-radius: 4px;
+
+}
+
+.web {
+margin-right: 8px;
+height: 38px;
+width: 128px;
+left: 576px;
+top: 174px;
+border-radius: 4px;
+
+}
+.pri {
+  margin-right: 8px;
+  height: 38px;
+  width: 145px;
+  left: 712px;
+  top: 174px;
+  border-radius: 4px;
+ 
+}
+.dis {
+  margin-right: 8px;
+  height: 38px;
+  width: 103px;
+  left: 865px;
+  top: 174px;
+  border-radius: 4px;
+}  
+.mar {
+  height: 38px;
+  width: 130px;
+  left: 976px;
+  top: 174px;
+  border-radius: 4px;
+   
 }
 .pointer {
   cursor: pointer;
@@ -316,7 +361,11 @@ background-color: var(--background-color-btn);
   letter-spacing: 0.06em;
   text-align: left;
   color: var(--title-text-color);
-}  
+}
+.one {
+  margin-top: 4px;
+} 
+ 
 
 .job {
 font-size: 16px;
