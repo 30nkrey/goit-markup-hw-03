@@ -6,48 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link
+     href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-  />
-
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css"
     />
 
 </head>
 <body>
-  <header>
-    <section>
-      <div class="container">
-    <nav class="logo-h">
-    <a href="./index.html" class="logo">Web<span>Studio</span></a>
-      <ul class="links">
+  <header class="page-header">
+    
+    <section class="container">
+     <nav>
+      <a href="./index.html" class="logo">Web<span>Studio</span></a>
+       <ul class="links">
         <li><a href="./index.html" class="link-current clr">Студия</a></li>
         <li><a href="./portfolio.html" class="link clr">Портфолио</a></li>
         <li><a href="#" class="link clr">Контакты</a></li>
-      </ul>
-    </nav>
+       </ul>
+     </nav>
       <ul class="post-tel">
         <li><a href="mailto:" class="mail link">info@devstudio.com</a></li>
         <li><a href="tel:+380961111111" class="tel">+38 096 111 11 11</a></li>
       </ul>
-    </div>
+    
     </section>
-   </header>
-<main>
+  </header>
+   <div class="container-m">  
+    <main>
   <!--Section Главная-->
-    <section class="our-projects">
-      <div class="container">
+     <div class="container-h">
+      <section class="our-projects">
+       <div class="container">
+
       <h1 class="title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
         <button class="zakaz" type="button">Заказать услугу</button>
-      </div>
-    </section>
+       </div>
+      </section>
+     </div>
   <!--Section Наши сильные стороны-->
-    <section>
-      <div class="container">
+    <section class="container">
+      
       <h2 class="our-strong">Наши сильные стороны</h2>
+      <div class="container-o">
           <ul class="our-strong-ul">
             <li>
               <h3 class="our-strong-h">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
@@ -68,7 +73,7 @@
     <section>
       <div class="container">
       <h2 class="our-strong">Чем мы занимаемся</h2>
-        <ul>
+        <ul class="our-jobs">
          <li><img src="./images/img011.jpg" alt="изображение1" width="370" height="294"/></li>
          <li><img src="./images/img012.jpg" alt="изображение2" width="370" height="294"/></li>
          <li><img src="./images/img013.jpg" alt="изображение3" width="370" height="294"/></li>
@@ -76,26 +81,42 @@
       </div>
     </section>
     <!--Section Team-->
-    <section class="team-backgroud-color">
-      <div class="container">
-      <h2 class="our-strong">Наша команда</h2>
-        <ul>
-        <li><img src="./images/img110.jpg" width="270" alt="Дизайнер"/>
-           <h3 class="our-strong-f">Игорь Демьяненко</h3>
-           <p class="our-text">Product Designer</p></li>
-        <li><img src="images/img111.jpg" width="270" alt="Разработчик"/>
-           <h3 class="our-strong-f">Ольга Репина</h3>
-           <p class="our-text">Frontend Developer</p></li>
-        <li><img src="images/img112.jpg" width="270" alt="Маркетолог"/>
-           <h3 class="our-strong-f">Николай Тарасов</h3>
-           <p class="our-text">Marketing</p></li>
-        <li><img src="images/img113.jpg" width="270" alt="UI Дизайнер"/>
-           <h3 class="our-strong-f">Михаил Ермаков</h3>
-           <p class="our-text">UI Designer</p></li>
+    <div class="container">
+      <section class="team-backgroud-color">
+      
+        <h2 class="our-strong">Наша команда</h2>
+          <ul> 
+            <li><img src="./images/img110.jpg" width="270" alt="Дизайнер"/>
+              <div class="toge">
+                <h3 class="our-strong-f">Игорь Демьяненко</h3>
+                <p class="our-text">Product Designer</p></div>
+              </li>
+                                           
+            <li><img src="images/img111.jpg" width="270" alt="Разработчик"/>
+              <div class="toge">
+              <h3 class="our-strong-f">Ольга Репина</h3>
+              <p class="our-text">Frontend Developer</p></div>
+            </li>
+          
+            <li><img src="images/img112.jpg" width="270" alt="Маркетолог"/>          
+              <div class="toge">
+              <h3 class="our-strong-f">Николай Тарасов</h3>
+              <p class="our-text">Marketing</p></div>
+            </li>
+          
+            <li><img src="images/img113.jpg" width="270" alt="UI Дизайнер"/>
+              <div class="toge">
+              <h3 class="our-strong-f">Михаил Ермаков</h3>
+              <p class="our-text">UI Designer</p></div>
+            </li>
+                    
           </ul>
-        </div>
-     </section>
-</main>
+      
+      </section>
+    </div>
+  </main>
+</div>
+
   <footer class="foot-bg">
     <div class="container">
     <a href="./index.html" class="logo-f">Web<span>Studio</span></a>

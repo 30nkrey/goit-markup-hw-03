@@ -10,6 +10,7 @@
 /*цвет тени one rgba(0, 0, 0, 0.1)*/
 /*цвет тени two rgba(0, 0, 0, 0.1)*/
 /*цвет тени three rgba(0, 0, 0, 0.12)*/
+/* цвет фона под фото #e5e5e5*/
 
 
 :root {
@@ -25,7 +26,7 @@
   --color-shadow-one: rgba(0, 0, 0, 0.1);
   --color-shadow-two: rgba(0, 0, 0, 0.08);
   --color-shadow-three: rgba(0, 0, 0, 0.12);
-  
+  --color-fon-image: #e5e5e5;
 }
 html {
   box-sizing: border-box;
@@ -39,14 +40,10 @@ h1,h2,h3,p,ul {
   padding: 0px;
   margin: 0px;
 }
-header {
-  position: absolute;
-}
-.links {
-  display: inline-block;
-}
+
+
 body {
-  
+  margin: auto;
   font-size: 14px;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -55,11 +52,26 @@ body {
   
 }
 
+.page-header {
+ background-color: #ccc;
+
+}
+
 .container {
-  width: 1200px;
+  width: 1230px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 2px solid tomato;
+  outline: 2px dashed tomato;
+  
+}
+
+.container-h {
+  text-align: center;
+  background-color: var(--background-color-ft);
+
+}
+.container-o {
+  text-align: center;
   
 }
 /* Заголовки*/
@@ -87,6 +99,9 @@ a {
 
 /*Навигация без логотипа*/
 .links { 
+  margin: 0px;
+  display: inline-block;
+  
   font-size: 14px; 
   line-height: 1.17;
   letter-spacing: 0.02em;
@@ -112,6 +127,7 @@ a {
 
 /* Почта и тел*/
 .post-tel {  
+  margin: 0px;
   font-size: 14px; 
   font-weight: 500;
   line-height: 1.14;
@@ -134,26 +150,32 @@ color: var(--primary-text-color);
 
 /* Section Главная*/
 .title {
+  margin-bottom: 30px;
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-align: center;
+ 
   color: var(--background-color);
   text-transform: uppercase;
   background-color: var(--background-color-ft);
-   
+  
 }
+
+
 .our-projects {
-  height: 600px;
-  width: 1600px;
-  left: 0px;
-  top: 80px;
-  border-radius: 0px;
   background-color: var(--background-color-card);
 }
 
 .zakaz {
+  
+  display: inline-block;
+  height: 50px;
+  width: 200px;
+  left: 700px;
+  top: 430px;
+  border-radius: 4px;
+
   font-size: 16px;
   font-weight: 700;
   line-height: 1.88;
@@ -172,6 +194,9 @@ color: var(--primary-text-color);
 
 /* Section Наши сильные стороны*/
 .our-strong {
+
+margin-top: 0px;
+margin-bottom: 30px;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.17;
@@ -181,6 +206,7 @@ color: var(--title-text-color);
 }
 
 .our-strong-h {
+  margin-bottom: 10px;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -191,6 +217,11 @@ color: var(--title-text-color);
 }
 
 .our-strong-f {
+  display: inline-block;
+  margin-top: 0px;
+  margin-right: 0px;
+  width: 109px;
+   
   font-size: 16px;
   font-weight: 500;
   line-height: 1.19;
@@ -207,7 +238,15 @@ text-align: left;
 color: var(--primary-text-color);
 
 }
+.toge {
+  text-align: center;
+}
+.our-jobs {
+  background-color: var(--color-fon-image);
+}
 .our-text { 
+  margin-top: 10px;
+  
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -216,19 +255,15 @@ color: var(--primary-text-color);
   
 }
 
+
+
+
 /*Section Чем занимаются*/
 
   /*Section Team*/
 
-.last-name { 
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: var(--title-text-color);
-}
 .team-backgroud-color {
+ 
   background-color: var(--background-color-btn);
   
 }
@@ -325,6 +360,7 @@ color: var(--background-color);
   color: var(--accent-color);
 }
 .foot-bg {
+
   background-color: var(--background-color-ft);
 }
 .logo-f > span {
