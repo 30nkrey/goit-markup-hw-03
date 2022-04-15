@@ -65,15 +65,7 @@ body {
   
 }
 
-.container-h {
-  text-align: center;
-  background-color: var(--background-color-ft);
 
-}
-.container-o {
-  text-align: center;
-  
-}
 /* Заголовки*/
 
 ul {
@@ -149,6 +141,19 @@ color: var(--primary-text-color);
 }
 
 /* Section Главная*/
+.container-h {
+margin: auto;
+position: absolute;
+width: 1440px;
+left: 0px;
+top: 80px;
+border-top: 0px;
+
+text-align: center;
+background-color: var(--background-color-ft);
+
+}
+
 .title {
   margin-bottom: 30px;
   font-size: 44px;
@@ -161,14 +166,10 @@ color: var(--primary-text-color);
   background-color: var(--background-color-ft);
   
 }
-
-
 .our-projects {
   background-color: var(--background-color-card);
 }
-
 .zakaz {
-  
   display: inline-block;
   height: 50px;
   width: 200px;
@@ -193,19 +194,27 @@ color: var(--primary-text-color);
   
 
 /* Section Наши сильные стороны*/
+.container-o {
+  
+  text-align: center;
+  color: var(--title-text-color);
+}
+.our-strong-ul {
+  margin-top: 0px;
+}
 .our-strong {
-
-margin-top: 0px;
-margin-bottom: 30px;
-font-size: 36px;
-font-weight: 700;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-align: center;
-color: var(--title-text-color);
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--title-text-color);
 }
 
 .our-strong-h {
+
   margin-bottom: 10px;
   font-size: 14px;
   font-weight: 700;
@@ -277,9 +286,13 @@ color: var(--primary-text-color);
   text-align: center;
   color: var(--title-text-color);
 }
- 
+ .buttons {
+  
+  margin-bottom: 34px;
+ }
 
 .button-all {
+
 display: inline-block;
 font-size: 16px;
 font-weight: 500;
@@ -353,6 +366,11 @@ background-color: var(--background-color-btn);
 }
 
 /*Section Projects with photo*/
+.card {
+  margin-top: 34px;
+  margin-bottom: 0px;
+
+}
 
 .special-name {
   font-size: 18px;
@@ -365,7 +383,7 @@ background-color: var(--background-color-btn);
 .one {
   margin-top: 4px;
 } 
- 
+
 
 .job {
 font-size: 16px;
@@ -374,8 +392,118 @@ letter-spacing: 0.03em;
 text-align: left;
 color: var(--primary-text-color);
 }
+.card-one {
+position: absolute;
+width: 370px;
+height: 404px;
+left: 215px;
+top: 262px;
 
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+
+}
+.card-two {
+  position: absolute;
+width: 370px;
+height: 404px;
+left: 615px;
+top: 262px;
+
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+}
+.card-three {
+position: absolute;
+width: 370px;
+height: 404px;
+left: 1015px;
+top: 262px;
+
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+}
+.card-four {
+position: absolute;
+width: 370px;
+height: 404px;
+left: 215px;
+top: 696px;
+
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+}
+.card-five {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 696px;
+  
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;  
+}
+.card-six {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 696px;
+  
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+}
+.card-seven {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 1130px;
+  
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+   
+}
+.card-eight {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 1130px;
+  
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box; 
+}
+.card-nine {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 1130px;
+  
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+   
+}
 /*Section Footer*/
+.footer {
+display: inline-block; 
+position: absolute;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 1628px; 
+}
+
 .logo-f {
   
   font-family: Raleway;
