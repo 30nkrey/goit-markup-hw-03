@@ -36,6 +36,7 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
 h1,h2,h3,p,ul {
   padding: 0px;
   margin: 0px;
@@ -51,22 +52,13 @@ body {
   background-color: var(--background-color);
   
 }
-
-.page-header {
- background-color: #ccc;
-
-}
-
 .container {
-  width: 1230px;
+  width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
   outline: 2px dashed tomato;
   
 }
-
-
-/* Заголовки*/
 
 ul {
   list-style-type: none;
@@ -92,8 +84,6 @@ a {
 /*Навигация без логотипа*/
 .links { 
   margin: 0px;
-  display: inline-block;
-  
   font-size: 14px; 
   line-height: 1.17;
   letter-spacing: 0.02em;
@@ -142,12 +132,7 @@ color: var(--primary-text-color);
 
 /* Section Главная*/
 .container-h {
-margin: auto;
-position: absolute;
-width: 1440px;
-left: 0px;
-top: 80px;
-border-top: 0px;
+
 
 text-align: center;
 background-color: var(--background-color-ft);
@@ -155,12 +140,13 @@ background-color: var(--background-color-ft);
 }
 
 .title {
+
   margin-bottom: 30px;
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
- 
+  text-align: center;
   color: var(--background-color);
   text-transform: uppercase;
   background-color: var(--background-color-ft);
@@ -194,12 +180,9 @@ background-color: var(--background-color-ft);
   
 
 /* Section Наши сильные стороны*/
-.container-o {
-  
-  text-align: center;
-  color: var(--title-text-color);
-}
+
 .our-strong-ul {
+  display: block;
   margin-top: 0px;
 }
 .our-strong {
@@ -366,11 +349,7 @@ background-color: var(--background-color-btn);
 }
 
 /*Section Projects with photo*/
-.card {
-  margin-top: 34px;
-  margin-bottom: 0px;
 
-}
 
 .special-name {
   font-size: 18px;
@@ -393,7 +372,7 @@ text-align: left;
 color: var(--primary-text-color);
 }
 .card-one {
-position: absolute;
+
 width: 370px;
 height: 404px;
 left: 215px;
@@ -405,7 +384,7 @@ box-sizing: border-box;
 
 }
 .card-two {
-  position: absolute;
+
 width: 370px;
 height: 404px;
 left: 615px;
@@ -416,7 +395,7 @@ border: 1px solid #EEEEEE;
 box-sizing: border-box;
 }
 .card-three {
-position: absolute;
+
 width: 370px;
 height: 404px;
 left: 1015px;
@@ -427,7 +406,7 @@ border: 1px solid #EEEEEE;
 box-sizing: border-box;
 }
 .card-four {
-position: absolute;
+
 width: 370px;
 height: 404px;
 left: 215px;
@@ -438,7 +417,7 @@ border: 1px solid #EEEEEE;
 box-sizing: border-box;
 }
 .card-five {
-  position: absolute;
+  
   width: 370px;
   height: 404px;
   left: 615px;
@@ -449,7 +428,7 @@ box-sizing: border-box;
   box-sizing: border-box;  
 }
 .card-six {
-  position: absolute;
+  
   width: 370px;
   height: 404px;
   left: 1015px;
@@ -460,7 +439,7 @@ box-sizing: border-box;
   box-sizing: border-box;
 }
 .card-seven {
-  position: absolute;
+  
   width: 370px;
   height: 404px;
   left: 215px;
@@ -472,7 +451,7 @@ box-sizing: border-box;
    
 }
 .card-eight {
-  position: absolute;
+  
   width: 370px;
   height: 404px;
   left: 615px;
@@ -483,7 +462,7 @@ box-sizing: border-box;
   box-sizing: border-box; 
 }
 .card-nine {
-  position: absolute;
+  
   width: 370px;
   height: 404px;
   left: 1015px;
@@ -497,11 +476,6 @@ box-sizing: border-box;
 /*Section Footer*/
 .footer {
 display: inline-block; 
-position: absolute;
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 1628px; 
 }
 
 .logo-f {
