@@ -238,6 +238,7 @@ color: var(--primary-text-color);
 
 
 .our-strong {
+  padding-top: 0px;
   margin-top: 0px;
   margin-bottom: 30px;
   font-size: 36px;
@@ -339,7 +340,8 @@ color: var(--primary-text-color);
 }
 .univers-port {
 margin-top: 94px;
-} 
+}
+ 
 
 .button-all {
 display: flex;
@@ -587,9 +589,7 @@ box-sizing: border-box;
   padding-top: 60px;
   padding-left: 215px;
   padding-bottom: 161px;
-  
-  
-  
+  margin-bottom: 20px;  
 }
 .links-ft {
   
