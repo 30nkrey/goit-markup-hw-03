@@ -77,8 +77,7 @@ ul {
 /* Логотип*/
 
 .hr-toge {
-  display: flex;
-  align-items: center;
+
   width: 1600px;
   height: 80px;
   padding-top: 24px;
@@ -88,6 +87,7 @@ ul {
 }
 .main-nav {
   display: flex;
+  
   align-items: center;
   
 }
@@ -147,7 +147,8 @@ a {
 
 .post-tel {  
   display: flex;
-  justify-content: end;
+  margin-left: auto;
+  align-items: center;
   
   
   font-size: 14px; 
