@@ -73,11 +73,18 @@ ul {
 }
 
 /* Логотип*/
-.main-nav {
+
+.hr-toge {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
 }
+.main-nav {
+  display: flex;
+  
+  align-items: center;
+  
+}
+
  .logo {
   font-family: Raleway;
   font-size: 26px;
@@ -98,7 +105,7 @@ a {
 /*Навигация без логотипа*/
 .links { 
   display: flex;
- 
+  
   font-size: 14px; 
   line-height: 1.17;
   letter-spacing: 0.02em;
@@ -132,6 +139,7 @@ a {
 
 .post-tel {  
   display: flex;
+  justify-content: end;
   
   font-size: 14px; 
   font-weight: 500;
@@ -140,11 +148,8 @@ a {
   text-align: left;
   text-decoration: none;
 }
-.no-nav {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-}
+ 
+
  .post-tel >.item+.item {
   margin-left: 50px;
  }
@@ -300,7 +305,15 @@ color: var(--primary-text-color);
   
 }
 /*Section Наши проекты */
+.container-card {
+  display: flex;
 
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  margin-bottom: 94px;
+  outline: 2px dashed tomato;
+}
 .projects {
   font-size: 44px;
   font-weight: 900;
@@ -310,7 +323,7 @@ color: var(--primary-text-color);
   color: var(--title-text-color);
 }
  .buttons {
-  
+   
   margin-bottom: 34px;
  }
  .button-all> .item:not(:last-child) {
@@ -323,7 +336,7 @@ margin-top: 94px;
 .button-all {
 
 display: flex;
-justify-content: center;
+
 font-size: 16px;
 font-weight: 500;
 line-height: 1.63;
@@ -396,7 +409,9 @@ background-color: var(--background-color-btn);
 }
 
 /*Section Projects with photo*/
-
+.cards {
+  display: flex;
+}
 
 .special-name {
   font-size: 18px;
@@ -410,7 +425,6 @@ background-color: var(--background-color-btn);
   margin-top: 4px;
 } 
 
-
 .job {
 font-size: 16px;
 line-height: 1.88;
@@ -418,6 +432,7 @@ letter-spacing: 0.03em;
 text-align: left;
 color: var(--primary-text-color);
 }
+
 .card-one {
 
 width: 370px;
@@ -431,7 +446,7 @@ box-sizing: border-box;
 
 }
 .card-two {
-
+  
 width: 370px;
 height: 404px;
 left: 615px;
@@ -442,7 +457,7 @@ border: 1px solid var(--color-bgd-card);
 box-sizing: border-box;
 }
 .card-three {
-
+ 
 width: 370px;
 height: 404px;
 left: 1015px;
@@ -521,7 +536,7 @@ box-sizing: border-box;
    
 }
 /*Section Footer*/
-.footer {
+.fr {
   margin-right: 0%;
 }
 .logo-f {
@@ -538,11 +553,12 @@ box-sizing: border-box;
   padding-top: 60px;
   padding-left: 215px;
   padding-bottom: 161px;
-  margin-bottom: 20px;
+  
   
   
 }
-.links {
+.links-ft {
+  
   display: inline-block;
   align-items: center;
   width: 231px;
