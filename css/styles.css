@@ -578,8 +578,16 @@ border-radius: 0px 0px 4px 4px;
 border-bottom: 1px solid var(--color-bgd-card)
 }
 /*Section Footer*/
-.fr {
-  margin-right: 0%;
+
+
+.fr-flex {
+  display: flex;
+  justify-content: flex-start;
+} 
+
+.contact {
+  padding: 60px 0px;
+
 }
 .logo-f {
   
@@ -592,19 +600,19 @@ border-bottom: 1px solid var(--color-bgd-card)
   color: var(--accent-color);
 }
 .ft-logo {
+  width: 145px;
+  margin-left: 0px;
+  margin-right: 0px;
+
   padding-top: 60px;
-  padding-left: 215px;
   padding-bottom: 161px;
   margin-bottom: 20px;  
 }
 .links-ft {
-  
-  display: inline-block;
-  align-items: center;
+   
   width: 231px;
   height: 81px;
-  
-  padding-bottom: 60px;
+    
   font-weight: 400;
   font-style: normal;
   line-height: 1.71;
