@@ -11,6 +11,7 @@
 /*цвет тени two rgba(0, 0, 0, 0.1)*/
 /*цвет тени three rgba(0, 0, 0, 0.12)*/
 /* цвет фона под фото #e5e5e5*/
+/*цвет фона карточки #eeeeee*/
 
 
 :root {
@@ -27,6 +28,7 @@
   --color-shadow-two: rgba(0, 0, 0, 0.08);
   --color-shadow-three: rgba(0, 0, 0, 0.12);
   --color-fon-image: #e5e5e5;
+  --color-bgd-card: #eeeeee;
 }
 html {
   box-sizing: border-box;
@@ -36,6 +38,7 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
 
 h1,h2,h3,p,ul {
   padding: 0px;
@@ -64,11 +67,17 @@ body {
   
 }
 
+
 ul {
   list-style-type: none;
 }
-/* Логотип*/
 
+/* Логотип*/
+.main-nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
  .logo {
   font-family: Raleway;
   font-size: 26px;
@@ -83,17 +92,25 @@ span {
 }
 a {
   text-decoration: none;
-}  
+} 
+ 
 
 /*Навигация без логотипа*/
 .links { 
-  margin: 0px;
+  display: flex;
+ 
   font-size: 14px; 
   line-height: 1.17;
   letter-spacing: 0.02em;
   text-align: left; 
 }
-
+.links >.item {
+  display: block;
+  
+}
+.links .item:not(:last-child) {
+  margin-right: 50px;
+}
 .clr {
   font-weight: 500;
   color: var(--second-text-color);
@@ -112,8 +129,10 @@ a {
 }
 
 /* Почта и тел*/
+
 .post-tel {  
-  margin: 0px;
+  display: flex;
+  
   font-size: 14px; 
   font-weight: 500;
   line-height: 1.14;
@@ -121,6 +140,15 @@ a {
   text-align: left;
   text-decoration: none;
 }
+.no-nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+ .post-tel >.item+.item {
+  margin-left: 50px;
+ }
+
 
 .mail {
   color: var(--primary-text-color);
@@ -135,16 +163,23 @@ color: var(--primary-text-color);
 }
 
 /* Section Главная*/
-.container-h {
-
-
-text-align: center;
-background-color: var(--background-color-ft);
-
+.univers {
+ padding-top: 94px;
+ padding-bottom: 94px;
 }
-
+.hero {
+  padding: 200px 0 280px;
+  text-align: center;
+  background-color: var(--background-color-ft);
+  outline: 2px dashed tomato;
+ }
 .title {
-
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
   font-size: 44px;
   font-weight: 900;
@@ -185,10 +220,7 @@ background-color: var(--background-color-ft);
 
 /* Section Наши сильные стороны*/
 
-.our-strong-ul {
-  display: block;
-  margin-top: 0px;
-}
+
 .our-strong {
   margin-top: 0px;
   margin-bottom: 30px;
@@ -240,6 +272,10 @@ color: var(--primary-text-color);
 .our-jobs {
   background-color: var(--color-fon-image);
 }
+.job-f {
+  display: flex;
+
+}
 .our-text { 
   margin-top: 10px;
   
@@ -277,10 +313,17 @@ color: var(--primary-text-color);
   
   margin-bottom: 34px;
  }
+ .button-all> .item:not(:last-child) {
+  margin-right: 8px;
+}
+.univers-port {
+margin-top: 94px;
+} 
 
 .button-all {
 
-display: inline-block;
+display: flex;
+justify-content: center;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.63;
@@ -382,8 +425,8 @@ height: 404px;
 left: 215px;
 top: 262px;
 
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
+background: var(--background-color);
+border: 1px solid var(--color-bgd-card);
 box-sizing: border-box;
 
 }
@@ -394,8 +437,8 @@ height: 404px;
 left: 615px;
 top: 262px;
 
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
+background: var(--background-color);
+border: 1px solid var(--color-bgd-card);
 box-sizing: border-box;
 }
 .card-three {
@@ -405,8 +448,8 @@ height: 404px;
 left: 1015px;
 top: 262px;
 
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
+background: var(--background-color);
+border: 1px solid var(--color-bgd-card);
 box-sizing: border-box;
 }
 .card-four {
@@ -416,8 +459,8 @@ height: 404px;
 left: 215px;
 top: 696px;
 
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
+background: var(--background-color);
+border: 1px solid var(--color-bgd-card);
 box-sizing: border-box;
 }
 .card-five {
@@ -427,8 +470,8 @@ box-sizing: border-box;
   left: 615px;
   top: 696px;
   
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
+  background: var(--background-color);
+  border: 1px solid var(--color-bgd-card);
   box-sizing: border-box;  
 }
 .card-six {
@@ -438,8 +481,8 @@ box-sizing: border-box;
   left: 1015px;
   top: 696px;
   
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
+  background: var(--background-color);
+  border: 1px solid var(--color-bgd-card);
   box-sizing: border-box;
 }
 .card-seven {
@@ -449,8 +492,8 @@ box-sizing: border-box;
   left: 215px;
   top: 1130px;
   
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
+  background: var(--background-color);
+  border: 1px solid var(--color-bgd-card);
   box-sizing: border-box;
    
 }
@@ -461,8 +504,8 @@ box-sizing: border-box;
   left: 615px;
   top: 1130px;
   
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
+  background: var(--background-color);
+  border: 1px solid var(--color-bgd-card);
   box-sizing: border-box; 
 }
 .card-nine {
@@ -472,16 +515,15 @@ box-sizing: border-box;
   left: 1015px;
   top: 1130px;
   
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
+  background: var(--background-color);
+  border: 1px solid var(--color-bgd-card);
   box-sizing: border-box;
    
 }
 /*Section Footer*/
 .footer {
-display: inline-block; 
+  margin-right: 0%;
 }
-
 .logo-f {
   
   font-family: Raleway;
@@ -492,8 +534,21 @@ display: inline-block;
   text-decoration: none;
   color: var(--accent-color);
 }
-
+.ft-logo {
+  padding-top: 60px;
+  padding-left: 215px;
+  padding-bottom: 161px;
+  margin-bottom: 20px;
+  
+  
+}
 .links {
+  display: inline-block;
+  align-items: center;
+  width: 231px;
+  height: 81px;
+  
+  padding-bottom: 60px;
   font-weight: 400;
   font-style: normal;
   line-height: 1.71;
