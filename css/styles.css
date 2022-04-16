@@ -12,6 +12,7 @@
 /*цвет тени three rgba(0, 0, 0, 0.12)*/
 /* цвет фона под фото #e5e5e5*/
 /*цвет фона карточки #eeeeee*/
+/* цвет линии внизу шапки #ececec*/
 
 
 :root {
@@ -29,6 +30,7 @@
   --color-shadow-three: rgba(0, 0, 0, 0.12);
   --color-fon-image: #e5e5e5;
   --color-bgd-card: #eeeeee;
+  --border-hr-color: #ececec;
 }
 html {
   box-sizing: border-box;
@@ -81,6 +83,8 @@ ul {
   height: 80px;
   padding-top: 24px;
   padding-bottom: 25px;
+  border: 1px solid var(--border-hr-color);
+  border-width: 0px, 0px, 1px, 0px;
 }
 .main-nav {
   display: flex;
@@ -417,6 +421,8 @@ border-radius: 4px;
   display: flex;
   flex-wrap: wrap;
 }
+
+
 .job-c>.item:nth-child(3n+1) {
   
   margin-right: 30px;
@@ -463,8 +469,8 @@ top: 262px;
 background: var(--background-color);
 border: 1px solid var(--color-bgd-card);
 box-sizing: border-box;
-
 }
+
 .card-two {
   
 width: 370px;
@@ -554,6 +560,10 @@ box-sizing: border-box;
   border: 1px solid var(--color-bgd-card);
   box-sizing: border-box;
    
+}
+.job-c {
+  
+  border-width: 0, 0, 1px, 0;
 }
 /*Section Footer*/
 .fr {
