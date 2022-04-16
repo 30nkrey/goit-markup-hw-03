@@ -65,8 +65,7 @@ body {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 2px dashed tomato;
-  
+   
 }
 
 
@@ -80,10 +79,10 @@ ul {
 
   width: 1600px;
   height: 80px;
-  padding-top: 24px;
-  padding-bottom: 25px;
-  border: 1px solid var(--border-hr-color);
-  border-width: 0px, 0px, 1px, 0px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  border-bottom: 1px solid var(--border-hr-color);
+  
 }
 
 .h-flex {
