@@ -433,8 +433,9 @@ justify-content: center;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: left;
+  border: 1px solid var(--color-bgd-card) ;
+  border-top: none;
   
-  border: 1px solid var(--color-bgd-card);
 }
 
 .job-c>.item-c:nth-child(3n+1) {
