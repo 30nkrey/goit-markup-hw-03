@@ -287,9 +287,13 @@ text-align: left;
 color: var(--primary-text-color);
 
 }
+.otstup {
+  margin-top: 10px;
+}
 .toge {
-  
-  margin-bottom: 30px;
+ 
+  margin-top: 20px;
+  margin-bottom: 10px;
   text-align: center;
 }
 .our-strong-f>.our-text {
