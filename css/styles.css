@@ -376,9 +376,7 @@ color: var(--primary-text-color);
 .item-b:not(:last-child) {
   margin-right: 8px;
 }
-.univers-port {
 
-}
 
 .univers-card {
   padding-top: 94px;
@@ -477,9 +475,6 @@ color: var(--primary-text-color);
 }
 
 
-.job-c >.item-c {
-
-}
 /*Section Footer*/
 
 .links-ft>.item-ft:not(:last-child) {
