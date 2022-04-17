@@ -62,6 +62,7 @@ body {
   
 }
 .container {
+  display: flex;
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
@@ -75,18 +76,9 @@ ul {
 
 .hr-toge {
 
-  width: 1600px;
-  height: 80px;
-  padding-top: 94px;
-  padding-bottom: 94px;
-  border-bottom: 1px solid var(--border-hr-color);
+border-bottom: 1px solid var(--border-hr-color);
   
 }
-.h-flex {
-  display: flex;
-  align-items: center;
-}
-
 .main-nav {
   display: flex;
   align-items: center;
@@ -95,6 +87,8 @@ ul {
 
  .logo {
   font-family: Raleway;
+  padding-top: 24px;
+  padding-bottom: 25px;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
@@ -114,7 +108,7 @@ a {
 .links { 
   display: flex;
   margin-left: 93px;
-  
+ 
   font-size: 14px; 
   line-height: 1.17;
   letter-spacing: 0.02em;
@@ -133,6 +127,8 @@ a {
 }
 
 .link-current {
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--accent-color);
 }
 .links .link-current:hover,
@@ -168,9 +164,13 @@ a {
 
 
 .mail {
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--primary-text-color);
 }
 .tel {
+  padding-top: 32px;
+  padding-bottom: 32px;
 color: var(--primary-text-color);
 }
 
@@ -184,12 +184,21 @@ color: var(--primary-text-color);
  padding-top: 94px;
  padding-bottom: 94px;
 }
+.un-top {
+  padding-top: 0px;
+}
+
 .hero {
-  padding: 200px 0 280px;
+  padding: 200px 0 200px;
   text-align: center;
   background-color: var(--background-color-ft);
-  outline: 2px dashed tomato;
- }
+   
+}
+.container-h {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 .title {
   width: 696px;
   height: 120px;
@@ -237,12 +246,14 @@ color: var(--primary-text-color);
   
 
 /* Section Наши сильные стороны*/
-
+.our-strong-transp {
+  color: transparent;
+}
 
 .our-strong {
   padding-top: 0px;
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
@@ -264,11 +275,8 @@ color: var(--primary-text-color);
 }
 
 .our-strong-f {
+  
   display: inline-block;
-  margin-top: 0px;
-  margin-right: 0px;
-  width: 109px;
-   
   font-size: 16px;
   font-weight: 500;
   line-height: 1.19;
@@ -278,6 +286,7 @@ color: var(--primary-text-color);
  
 }
 .our-text-p {
+  
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -289,20 +298,39 @@ color: var(--primary-text-color);
   margin-top: 10px;
 }
 .toge {
+  display: block;
   
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-align: center;
+}
+
+.item-chem {
+  width: 270px;
+  height: 101px;
+}
+.our-strong-ul>.item-chem:not(:last-child) {
+margin-right: 30px;
+background-color: var(--background-color);
 }
 .our-strong-f>.our-text {
   margin-bottom: 10px;
 }
-.our-jobs {
+.our-jobs>.item:not(:last-child) {
+  margin-right: 30px;
   background-color: var(--background-color);
 }
 .job-f {
   display: flex;
 }
-.job-f>.item+.item {
+.job-f>.item-t+.item-t {
   margin-left: 30px;
+}
+.job-f>.item-t {
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
 }
 .our-jobs>.item+.item {
   margin-left: 30px;
@@ -326,9 +354,6 @@ color: var(--primary-text-color);
   
 }
 
-
-
-
 /*Section Чем занимаются*/
 
   /*Section Team*/
@@ -336,9 +361,8 @@ color: var(--primary-text-color);
 .team-backgroud-color {
  background-color: var(--background-color-btn);
 }
-.job-f>.item {
-  background: var(--background-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+.job-f>.item-t {
+  
   border-radius: 0px 0px 4px 4px;
   border-bottom: 1px solid var(--color-bgd-card)
   }
@@ -346,7 +370,6 @@ color: var(--primary-text-color);
 /*Section Наши проекты */
 .container-card {
   display: flex;
-
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
