@@ -366,10 +366,11 @@ color: var(--primary-text-color);
   margin-right: 8px;
 }
 .univers-port {
-margin-top: 94px;
+
 }
 .univers-card {
-margin-top: 94px;
+  padding-top: 94px;
+ 
 }
 
 .button-all {
