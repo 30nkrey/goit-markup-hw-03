@@ -292,14 +292,10 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 text-align: left;
 color: var(--primary-text-color);
+}
 
-}
-.otstup {
-  margin-top: 10px;
-}
 .toge {
   display: block;
-  
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
@@ -310,8 +306,8 @@ color: var(--primary-text-color);
   height: 101px;
 }
 .our-strong-ul>.item-chem:not(:last-child) {
-margin-right: 30px;
-background-color: var(--background-color);
+  margin-right: 30px;
+  background-color: var(--background-color);
 }
 .our-strong-f>.our-text {
   margin-bottom: 10px;
@@ -345,7 +341,6 @@ background-color: var(--background-color);
 }
 .our-text { 
   margin-top: 10px;
-  
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
