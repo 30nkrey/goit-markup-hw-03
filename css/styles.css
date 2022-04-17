@@ -43,8 +43,8 @@ html {
 
 
 h1,h2,h3,p,ul {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 img {
   display: block;
@@ -252,7 +252,7 @@ color: var(--primary-text-color);
 
 .our-strong {
   padding-top: 0px;
-  margin-top: 0px;
+  
   margin-bottom: 50px;
   font-size: 36px;
   font-weight: 700;
@@ -333,7 +333,6 @@ color: var(--primary-text-color);
 }
 .foto {
   width: 270px;
-  height: 368px;
   background: var(--background-color);
   border: 1px solid var(--color-bgd-card);
   box-sizing: border-box;
@@ -369,7 +368,7 @@ color: var(--primary-text-color);
   padding: 0 15px;
   margin: 0 auto;
   margin-bottom: 94px;
-  outline: 2px dashed tomato;
+ 
 }
 .projects {
   font-size: 44px;
@@ -619,16 +618,10 @@ box-sizing: border-box;
 }
 /*Section Footer*/
 
-
-.fr-flex {
-  display: flex;
-  justify-content: flex-start;
-} 
-
-.contact {
-  padding: 60px 0px;
-
+.links-ft>.item-ft:not(:last-child) {
+  margin-bottom: 9px;
 }
+
 .logo-f {
   
   font-family: Raleway;
@@ -639,20 +632,14 @@ box-sizing: border-box;
   text-decoration: none;
   color: var(--accent-color);
 }
-.ft-logo {
+.logo-f {
   width: 145px;
   margin-left: 0px;
   margin-right: 0px;
 
-  padding-top: 60px;
-  padding-bottom: 161px;
-  margin-bottom: 20px;  
 }
 .links-ft {
-   
-  width: 231px;
-  height: 81px;
-    
+   margin-top: 20px;   
   font-weight: 400;
   font-style: normal;
   line-height: 1.71;
@@ -669,12 +656,13 @@ color: var(--background-color);
   text-decoration: none;
 }
 
-.links .link:hover,
-.links .link:focus { 
+.links-ft .link:hover,
+.links-ft .link:focus { 
   color: var(--accent-color);
 }
 .foot-bg {
-
+  height: 252px;
+  padding: 60px 0px;
   background-color: var(--background-color-ft);
 }
 .logo-f > span {
