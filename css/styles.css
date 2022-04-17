@@ -68,11 +68,9 @@ body {
    
 }
 
-
 ul {
   list-style-type: none;
 }
-
 /* Логотип*/
 
 .hr-toge {
@@ -291,8 +289,6 @@ color: var(--primary-text-color);
   margin-top: 10px;
 }
 .toge {
-  padding: 30px 0px;
-  margin-bottom: 30px;
   
   text-align: center;
 }
@@ -505,7 +501,9 @@ height: 404px;
 left: 215px;
 top: 262px;
 
-
+background: var(--background-color);
+border: 1px solid var(--color-bgd-card);
+box-sizing: border-box;
 }
 
 .card-two {
@@ -599,7 +597,7 @@ box-sizing: border-box;
    
 }
 .job-c >.item {
-
+}
 /*Section Footer*/
 
 
