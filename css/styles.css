@@ -387,13 +387,6 @@ color: var(--primary-text-color);
 .button-all {
 display: flex;
 justify-content: center;
-padding: 6px 22px;
-
-font-size: 16px;
-font-weight: 500;
-line-height: 1.63;
-letter-spacing: 0.03em;
-text-align: center;
 
 }
 
@@ -401,7 +394,7 @@ text-align: center;
   cursor: pointer;
 }
 .btn {
-  
+  padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -437,8 +430,10 @@ text-align: center;
 }
 .carta {
   
- 
-  padding: 20px, 24px;
+  width: 370px;
+  padding-left: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: left;
   
   border: 1px solid var(--color-bgd-card);
