@@ -401,10 +401,13 @@ color: var(--primary-text-color);
 .item-b:not(:last-child) {
   margin-right: 8px;
 }
-
+.filters  {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .univers-card {
-  padding-top: 94px;
+ 
 
 }
 .button-all {
@@ -439,44 +442,33 @@ justify-content: center;
 /*Section Projects with photo*/
 
 .cards {
- 
-  padding-top: 34px;
-  padding-bottom: 94px;
-  
+margin-top: 50px;
 }
- 
+   
 .job-c {
- width: 1200px;
  display: flex; 
  flex-wrap: wrap;
+ margin: -15px;
+ padding: -15;
+ 
  
 }
-.carta {
-  
+.item-c {
   width: 370px;
+  padding: 15px;
+  margin: 15px;
+  
+}
+.carta {
+   
   padding-left: 24px;
+  padding-right: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: left;
   border: 1px solid var(--color-bgd-card) ;
   border-top: none;
   
-}
-
-.job-c>.item-c:nth-child(3n+1) {
-  
-  margin-right: 30px;
-  margin-bottom: 30px;
-}
-.job-c>.item-c:nth-child(3n+3) {
-  margin-left: 30px;
-  margin-bottom: 30px;
-}
-.job-c>.item-c:nth-last-child(-n+3) {
-  margin-bottom: 0px;
-}
-.job-c>.item-c:nth-child(3n+1) {
-  margin-left: 0px;
 }
 
 .special-name {
