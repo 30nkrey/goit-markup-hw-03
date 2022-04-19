@@ -106,6 +106,7 @@ a {
 
 /*Навигация без логотипа*/
 .links { 
+ 
   display: flex;
   margin-left: 93px;
  
@@ -116,8 +117,10 @@ a {
 }
 .links >.item {
   display: block;
-  
+
 }
+
+
 .links .item:not(:last-child) {
   margin-right: 50px;
 }
@@ -130,6 +133,10 @@ a {
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--accent-color);
+}
+.link {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .links .link-current:hover,
 .links .link-current:focus {
@@ -315,14 +322,14 @@ color: var(--primary-text-color);
   height: 101px;
 }
 .our-strong-ul>.item-chem:not(:last-child) {
-  margin-right: 30px;
+  
   background-color: var(--background-color);
 }
 .our-strong-f>.our-text {
   margin-bottom: 10px;
 }
 .our-jobs>.item:not(:last-child) {
-  margin-right: 30px;
+ 
   background-color: var(--background-color);
 }
 .job-f {
@@ -517,8 +524,7 @@ color: var(--primary-text-color);
 
 }
 .links-ft {
-   margin-top: 20px;   
-  font-weight: 400;
+     
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -532,6 +538,7 @@ color: var(--background-color);
 }
 .underline {
   text-decoration: none;
+  margin-top: 20px;
 }
 
 .links-ft .link:hover,
