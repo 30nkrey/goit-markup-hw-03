@@ -247,7 +247,7 @@ color: var(--primary-text-color);
 
 /* Section Наши сильные стороны*/
 .our-strong-transp {
-  color: transparent;
+  visibility: hidden;
 }
 
 .our-strong {
@@ -362,7 +362,7 @@ color: var(--primary-text-color);
 
 /*Section Наши проекты */
 .projects-transp {
-  color: transparent;
+  visibility: hidden;
 }
 .projects {
   font-size: 44px;
