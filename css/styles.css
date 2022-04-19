@@ -446,16 +446,14 @@ margin-top: 50px;
 }
    
 .job-c {
+
  display: flex; 
  flex-wrap: wrap;
  margin: -15px;
- padding: -15;
- 
  
 }
 .item-c {
   width: 370px;
-  padding: 15px;
   margin: 15px;
   
 }
