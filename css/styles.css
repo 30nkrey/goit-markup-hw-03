@@ -109,7 +109,8 @@ a {
  
   display: flex;
   margin-left: 93px;
- 
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-size: 14px; 
   line-height: 1.17;
   letter-spacing: 0.02em;
@@ -134,15 +135,12 @@ a {
   padding-bottom: 32px;
   color: var(--accent-color);
 }
-.link {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
+
 .links .link-current:hover,
 .links .link-current:focus {
   color: var(--accent-color);
 }
-.links .link :hover,
+.links .link:hover,
 .links .link:focus  {
   color: var(--accent-color);
 }
@@ -520,8 +518,8 @@ color: var(--background-color);
   
 }
 
-.links-ft .link:hover,
-.links-ft .link:focus { 
+.links-ft .linkf:hover,
+.links-ft .linkf:focus { 
   color: var(--accent-color);
 }
 .foot-bg {
