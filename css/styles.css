@@ -251,7 +251,7 @@ color: var(--primary-text-color);
 .zakaz:hover  {
   background-color: var(--accent-color-second);
 }
-  
+ 
 
 /* Section Наши сильные стороны*/
 .our-strong-transp {
@@ -323,9 +323,10 @@ color: var(--primary-text-color);
   width: 270px;
   height: 101px;
 }
+
 .our-strong-ul>.item-chem:not(:last-child) {
   margin-right: 30px;
-  background-color: var(--background-color);
+  
 }
 .our-strong-f>.our-text {
   margin-bottom: 10px;
@@ -336,7 +337,7 @@ color: var(--primary-text-color);
 }
 .job-f {
   display: flex;
-  background-color: var(--background-color-btn);
+  
 }
 .job-f>.item-t+.item-t {
   margin-left: 30px;
