@@ -336,7 +336,7 @@ color: var(--primary-text-color);
 }
 .job-f {
   display: flex;
-  background-color: var(--background-color);
+  background-color: var(--background-color-btn);
 }
 .job-f>.item-t+.item-t {
   margin-left: 30px;
@@ -398,14 +398,10 @@ color: var(--primary-text-color);
   padding-bottom: 94px;
 }
 
-.univers-card {
- 
-
-}
 .button-all {
 display: flex;
 justify-content: center;
-
+margin-bottom: 50px;
 }
 
 .pointer {
@@ -433,9 +429,6 @@ justify-content: center;
 
 /*Section Projects with photo*/
 
-.cards {
-margin-top: 50px;
-}
    
 .job-c {
 
@@ -503,10 +496,11 @@ color: var(--primary-text-color);
   width: 145px;
   margin-left: 0px;
   margin-right: 0px;
+  
 
 }
 .links-ft {
-     
+    
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -519,8 +513,10 @@ color: var(--background-color);
   color: var(--color-opacity);
 }
 .underline {
-  text-decoration: none;
   margin-top: 20px;
+  text-decoration: none;
+  
+  
 }
 
 .links-ft .link:hover,
