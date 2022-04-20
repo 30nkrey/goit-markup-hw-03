@@ -25,9 +25,9 @@
   --background-color-ft: #2f303a;
   --background-color-btn: #F5F4FA;
   --color-opacity: rgba(255,255,255,0.6);
-  --color-shadow-one: rgba(0, 0, 0, 0.1);
-  --color-shadow-two: rgba(0, 0, 0, 0.08);
-  --color-shadow-three: rgba(0, 0, 0, 0.12);
+  --color-shadow-one: rgba(0, 0, 0, 0.12);
+  --color-shadow-two: rgba(0, 0, 0, 0.14);
+  --color-shadow-three: rgba(0, 0, 0, 0.2);
   --color-fon-image: #e5e5e5;
   --color-bgd-card: #eeeeee;
   --border-hr-color: #ececec;
@@ -316,10 +316,10 @@ color: var(--primary-text-color);
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
+  
 }
 
 .item-chem {
-  
   width: 270px;
   height: 101px;
 }
@@ -336,26 +336,20 @@ color: var(--primary-text-color);
 }
 .job-f {
   display: flex;
+  background-color: var(--background-color);
 }
 .job-f>.item-t+.item-t {
   margin-left: 30px;
 }
 .job-f>.item-t {
-  background: #FFFFFF;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px var(--color-shadow-one), 0px 1px 1px var(--color-shadow-two), 0px 2px 1px var(--color-shadow-three);
   border-radius: 0px 0px 4px 4px;
 
 }
 .our-jobs>.item+.item {
   margin-left: 30px;
 }
-.foto {
-  width: 270px;
-  background: var(--background-color);
-  border: 1px solid var(--color-bgd-card);
-  box-sizing: border-box;
-  
-}
+
 .our-text { 
   margin-top: 10px;
   font-size: 16px;
@@ -373,10 +367,6 @@ color: var(--primary-text-color);
 .team-backgroud-color {
  background-color: var(--background-color-btn);
 }
-.job-f>.item-t {
-  border-radius: 0px 0px 4px 4px;
-  border-bottom: 1px solid var(--color-bgd-card)
-  }
 
 /*Section Наши проекты */
 .projects-transp {
