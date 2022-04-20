@@ -198,6 +198,7 @@ color: var(--primary-text-color);
 .hero {
   padding: 200px 0 200px;
   text-align: center;
+  
   background-color: var(--background-color-ft);
    
 }
@@ -318,11 +319,12 @@ color: var(--primary-text-color);
 }
 
 .item-chem {
+  
   width: 270px;
   height: 101px;
 }
 .our-strong-ul>.item-chem:not(:last-child) {
-  
+  margin-right: 30px;
   background-color: var(--background-color);
 }
 .our-strong-f>.our-text {
